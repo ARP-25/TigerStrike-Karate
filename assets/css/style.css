@@ -58,13 +58,32 @@ header a {
 #banner-outer {
     height: 600px;
     width: 100%;
-    /*overflow: hidden;*/
+    overflow: hidden;
     position: relative;
 }
 
-#karate {
+#karate-picture {
     background: url("../images/karate.webp") no-repeat center center;
+    height: 100%;
+    width: 100%;
+    /* animate */
+    animation-name: karate-blur;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+  }
+#karate-benefits {
+
 }
+
+  @keyframes karate-blur {
+    from {
+      filter: blur(10px); 
+    }
+  
+    to {
+      filter: blur(0);
+    }
+  }
 
 
 
