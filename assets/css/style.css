@@ -1,0 +1,38 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto+Condensed:wght@300;700&family=Rubik:wght@900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Style header (Logo and Menu) */
+#logo {
+    float: left;
+    font-size: 150%;
+    margin-left: 40px;
+    color: inherit;
+}
+#menu {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+}
+#menuelements {
+    display: inline;
+}
+
+/* Style body */
+body {
+    font-family: Roboto Condensed, sans-serif;
+    font-weight: 300;
+    color: #fa0404;
+}
+
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
