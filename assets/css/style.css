@@ -47,7 +47,7 @@ body {
     font-family: Roboto Condensed, sans-serif;
     font-weight: 300;
     color: white;
-    background-color: rgb(31, 33, 34)
+    background-color: rgb(31, 33, 34);
 }
 header a {
     text-decoration: none;
@@ -68,11 +68,45 @@ header a {
     width: 100%;
     /* animate */
     animation-name: karate-blur;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
   }
-#karate-benefits {
+#karate-benefit-one {
+    font-size: 130%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 76px;
+    text-align: center;
+    background-color: rgb(31, 33, 34, .8);
+    bottom: 380px;
+    right: 400px;
 
+    position: absolute;
+}
+#karate-benefit-two {
+    font-size: 130%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 76px;
+    text-align: center;
+    background-color: rgb(31, 33, 34, .8);
+    bottom: 250px;
+    right: 400px;
+    position: absolute;
+}
+#karate-benefit-three {
+    font-size: 130%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 76px;
+    text-align: center;
+    background-color: rgb(31, 33, 34, .8);
+    bottom: 120px;
+    right: 400px;
+    position: absolute;
 }
 
   @keyframes karate-blur {
