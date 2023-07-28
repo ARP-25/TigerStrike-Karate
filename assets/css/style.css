@@ -130,7 +130,7 @@ header a {
 }
 #meet-the-sensei-outer div {
     width: 33.3%;
-    height: 750px;
+    height: 520px;
     float: left;
 }
 #sensei-picture {
@@ -144,7 +144,45 @@ header a {
     font-size: 150%;
     text-align: center;
     padding: 30px;
+    font-weight: lighter;
 }
 #sensei-video {
     padding-top: 100px;
+    height: 600px;
 }
+
+
+#location-times-header {
+    font-size: 230%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    margin: 20px;
+}
+#location-times div {
+    width: 50%;
+    height: 520px;
+    float: left;
+}
+#maps {
+    float:right;
+}
+#times h3 {
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: grey;
+}
+
+
