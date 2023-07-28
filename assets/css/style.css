@@ -122,7 +122,7 @@ header a {
     height: 500px;
 }
 #meet-the-sensei-header {
-    font-size: 190%;
+    font-size: 230%;
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: center;
@@ -130,9 +130,21 @@ header a {
 }
 #meet-the-sensei-outer div {
     width: 33.3%;
-    height: 400px;
-    background-color: white;
-    border:solid green;
+    height: 750px;
     float: left;
-    box-sizing: border-box;
+}
+#sensei-picture {
+    float: right;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+    height: 600px;
+}
+#meet-the-sensei-outer div h3 {
+    font-size: 150%;
+    text-align: center;
+    padding: 30px;
+}
+#sensei-video {
+    padding-top: 100px;
 }
