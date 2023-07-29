@@ -161,7 +161,7 @@ header a {
 }
 #location-times div {
     width: 50%;
-    height: 520px;
+    height: 289px;
     float: left;
 }
 #maps {
@@ -185,4 +185,20 @@ th {
     background-color: grey;
 }
 
+
+.social-list {
+    padding: 0;
+    margin: 0;
+}
+.footer-elements {
+    display: inline-block; 
+    padding: 10px;
+    margin: 0 15px;
+}
+#container {
+    text-align: center; 
+}
+footer div {
+    font-size:140%;
+}
 
