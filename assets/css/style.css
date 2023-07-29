@@ -30,6 +30,7 @@
     text-decoration: none;
 }
 
+
 /* :hover vorgefertige Klasse für hover über Element -> Handlung */
 #menu a:hover {
     border-bottom: 1px solid white;
@@ -199,6 +200,23 @@ th {
     text-align: center; 
 }
 footer div {
-    font-size:140%;
+    font-size: 140%;
 }
 
+#form {
+    position: absolute;
+    top: 250px;
+    left: 250px;
+}
+
+#form-h1 {
+    position: absolute;
+    top: 250px;
+    left: 250px;
+}
+
+#form {
+    position: absolute;
+    top: 350px;
+    left: 250px;  
+}
