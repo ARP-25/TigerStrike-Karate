@@ -9,6 +9,10 @@
 }
 
 /* Style header (Logo and Menu) */
+header {
+    height: 68px;
+    width: 100%;
+}
 #logo {
     float: left;
     font-size: 150%;
@@ -186,8 +190,8 @@ th {
     background-color: grey;
 }
 
-
-.social-list {
+/*footer styling main page*/
+/*.social-list {
     padding: 0;
     margin: 0;
 }
@@ -196,27 +200,65 @@ th {
     padding: 10px;
     margin: 0 15px;
 }
+.footer-element-last {
+    display: inline-block; 
+    padding: 10px;
+}
 #container {
-    text-align: center; 
+    text-align: center;     
 }
 footer div {
     font-size: 140%;
+}*/
+
+
+
+/* Styling signup form */
+#container-form {
+    height: 512px;
+    width: 100%;
+}
+fieldset {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    padding: 1em 2em;
+    border: solid 1px #ccc;
+    border-radius: 6px;
+    width: 20%;
+    position: relative;
+    left: 40%;
+    right: 40%;
+    box-sizing: border-box;
+}
+legend {
+    font-size: 1.25em;
+    padding: 0 .25em;
+    color: #999;
+}
+.form-group {
+    padding-top: 1em;
 }
 
-#form {
-    position: absolute;
-    top: 250px;
-    left: 250px;
+/* footer styling signup page
+#container-footer-signup {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    padding-top: 5em;
+}
+*/
+footer div {
+    text-align: center;
+}
+footer div ul li {
+    width: 10%;
+    display: inline-block;
+    padding: 150px 0 20px 0;
+    font-size: 140%;
 }
 
-#form-h1 {
-    position: absolute;
-    top: 250px;
-    left: 250px;
-}
 
-#form {
-    position: absolute;
-    top: 350px;
-    left: 250px;  
-}
+
+
+
+
