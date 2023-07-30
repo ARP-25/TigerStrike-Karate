@@ -60,18 +60,17 @@ header a {
     letter-spacing: 4px;
 }
 
+/* style banner */
 #banner-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
-
 #karate-picture {
     background: url("../images/karate.webp") no-repeat center center;
     height: 100%;
     width: 100%;
-    /* animate */
     animation-name: karate-blur;
     animation-duration: 3s;
     animation-fill-mode: forwards;
@@ -122,6 +121,7 @@ header a {
     }
 }
 
+/* styling meet the sensei */
 #meet-the-sensei-outer {
     width: 100%;
     height: 500px;
@@ -156,7 +156,7 @@ header a {
     height: 600px;
 }
 
-
+/* Styling location table*/
 #location-times-header {
     font-size: 230%;
     text-transform: uppercase;
@@ -168,6 +168,7 @@ header a {
     width: 50%;
     height: 289px;
     float: left;
+    margin-bottom: 100px;
 }
 #maps {
     float:right;
@@ -179,44 +180,20 @@ table {
     width: 100%;
     border-collapse: collapse;
 }
-
 th, td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: center;
 }
-
 th {
     background-color: grey;
 }
 
-/*footer styling main page*/
-/*.social-list {
-    padding: 0;
-    margin: 0;
-}
-.footer-elements {
-    display: inline-block; 
-    padding: 10px;
-    margin: 0 15px;
-}
-.footer-element-last {
-    display: inline-block; 
-    padding: 10px;
-}
-#container {
-    text-align: center;     
-}
-footer div {
-    font-size: 140%;
-}*/
-
-
-
 /* Styling signup form */
 #container-form {
-    height: 512px;
+    height: 700px;
     width: 100%;
+    margin-bottom: 160px;
 }
 fieldset {
     margin-top: 5em;
@@ -238,24 +215,30 @@ legend {
 .form-group {
     padding-top: 1em;
 }
-
-/* footer styling signup page
-#container-footer-signup {
-    width: 100%;
-    text-align: center;
-    height: 50px;
-    padding-top: 5em;
+.form-group:first-of-type {
+    padding-top: 0;
 }
-*/
+input {
+    padding: .5em;
+}
+input[type="submit"] {
+    margin-top: 2.5em;
+}
+
+/*Styling footer*/
+footer {
+    width: 100%;
+}
 footer div {
     text-align: center;
 }
 footer div ul li {
     width: 10%;
     display: inline-block;
-    padding: 150px 0 20px 0;
+    padding: 0 0 20px 0;
     font-size: 140%;
 }
+
 
 
 
