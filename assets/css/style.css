@@ -124,7 +124,7 @@ header a {
     position: absolute;
 }
 #banner-outer div h3 {
-    padding:10px;
+    padding:8px;
 }
 #banner-outer div h2 {
     padding:10px;
@@ -183,50 +183,27 @@ header a {
 }
 
 
-/*test*/
-
-#meet-the-sensei-outer2 {
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    padding-top:10px;
-}
-#meet-the-sensei-h2 {
-    font-size: 230%;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    text-align: center;
-    padding: 20px;
-    color: green;
-}
-
-
 /* Styling location table*/
 #location-times-header {
     font-size: 230%;
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: center;
-    margin: 20px;
+    padding: 20px;
 }
-#location-times div {
-    width: 50%;
-    height: 289px;
-    float: left;
-    margin-bottom: 100px;
-}
+
 #location-times {
-    width: 100%;
-    height: 289px;
+    width: 50%;
+    height: 373px;
 }
 #maps {
-    float:right;
+    float:left;
 }
 #times h3 {
     text-align: center;
 }
 table {
-    width: 100%;
+    width: 50%;
     border-collapse: collapse;
 }
 th, td {
@@ -236,6 +213,46 @@ th, td {
 }
 th {
     background-color: grey;
+}
+
+/*contact */
+#contact h3 {
+    font-size: 230%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    padding: 20px;
+}
+#container-contact-form {
+    width:50%;
+    height:300px; 
+    display: inline-block;
+}
+#container-picture {
+    width:50%;
+    height:300px;
+    overflow:hidden;
+    float:right;
+}
+#contact-form {
+    text-align: center;
+    height: 300px;
+    padding: 1em;
+}
+#contact-name {
+
+}
+#contact-email {
+
+}
+#contact-message {
+
+}
+
+#contact-picture {
+    position:relative;
+    bottom: 100px;
+    right: 85px;
 }
 
 /* Styling signup form */

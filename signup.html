@@ -49,8 +49,8 @@
         </div>
 
         <div class="form-group">
-            <label for="age">Age:</label><br>
-            <input type="number" id="age" name="age" required min="0">
+            <label for="bdate">Birthdate:</label><br>
+            <input type="date" id="bdate" name="bdate" required>
         </div>
 
         <div class="form-group">
@@ -62,25 +62,28 @@
             <p>Choose your current Karate belt level:</p>
             <input type="radio" id="white" name="belt" value="White">
             <label for="white">White Belt</label><br>
-          
             <input type="radio" id="yellow" name="belt" value="Yellow">
             <label for="yellow">Yellow Belt</label><br>
-          
             <input type="radio" id="orange" name="belt" value="Orange">
-            <label for="orange">Orange Belt</label><br>
-          
+            <label for="orange">Orange Belt</label><br>          
             <input type="radio" id="green" name="belt" value="Green">
-            <label for="green">Green Belt</label><br>
-          
+            <label for="green">Green Belt</label><br>         
             <input type="radio" id="blue" name="belt" value="Blue">
-            <label for="blue">Blue Belt</label><br>
-          
+            <label for="blue">Blue Belt</label><br>          
             <input type="radio" id="brown" name="belt" value="Brown">
-            <label for="brown">Brown Belt</label><br>
-          
+            <label for="brown">Brown Belt</label><br>          
             <input type="radio" id="black" name="belt" value="Black">
             <label for="black">Black Belt</label><br>
-          </div>
+        </div>
+
+        <div class="form-group">
+            <label for="payment">Payment:</label><br>
+                <select id="payment" name="payment">
+                    <option value="CreditCard">CreditCard</option>
+                    <option value="BankTransfer">BankTransfer</option>
+                    <option value="PayPal">PayPal</option>
+                </select>
+        </div>
 
         <div class="form-group">
             <label for="message">Message (optional):</label><br>
