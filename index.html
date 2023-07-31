@@ -44,7 +44,7 @@
     <section id="meet-the-sensei-outer">
         <h2 id="meet-the-sensei-header">Meet the Sensei </h2>
         <div>
-            <img style="border: 2px solid #ccc; border-radius: 10px;" id="sensei-picture" src="assets/images/karate_sensei.jpeg" alt="sensei of dragonstrike karate school">
+            <img id="sensei-picture" src="assets/images/karate_sensei.jpeg" alt="sensei of dragonstrike karate school">
         </div>
         <div>
             <div>
@@ -57,16 +57,17 @@
                 <h3>A gracious mentor, guiding students in personal growth and self-confidence</h3>
             </div>
         </div>
-        <div>
-            <video id="sensei-video" controls>
-                <source src="https://media.istockphoto.com/id/487961262/de/video/training-kampfsport.mp4?s=mp4-640x640-is&k=20&c=SvpEjKO3ul084mJhSPhwm5XeVbmPrDhR8lA7A0XcvMc=" type=video/mp4>
+        <div id="video-container">
+            <video controls>
+                <source src="/assets/images/pexels-rodnae-productions-7045243 (540p).mp4" type=video/mp4>
+                <!--<source src="https://media.istockphoto.com/id/487961262/de/video/training-kampfsport.mp4?s=mp4-640x640-is&k=20&c=SvpEjKO3ul084mJhSPhwm5XeVbmPrDhR8lA7A0XcvMc=" type=video/mp4>-->
             </video>
         </div>
     </section>
 
 
     <section>
-        <h3 id="location-times-header">Find Us Easily and Visit Us with Pleasure - Location & Opening Hours</h3>
+        <h2 id="location-times-header">Find Us Easily and Visit Us with Pleasure - Location & Classes</h2>
         <div id="location">
             <iframe id="maps" width="50%" height="289" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2460.6531518651755!2d4.4628067769394635!3d51.92203898032803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c434a4b5d580d5%3A0xab0eea68258e8b0a!2sCoolsestraat%203%2C%203014%20LA%20Rotterdam%2C%20Niederlande!5e0!3m2!1sde!2sde!4v1690552433708!5m2!1sde!2sde" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
@@ -74,7 +75,7 @@
         <table>
             <tr>
                 <th>Day</th>
-                <th>Opening Hours</th>
+                <th>Classes</th>
             </tr>
             <tr>
                 <td>Monday</td>
@@ -110,7 +111,7 @@
     
     <section id="contact">
 
-        <h3>do you have some questions? feel free to contact us</h3>
+        <h2>any questions? feel free to contact us</h2>
 
         <div id="container-contact-form">
         <form id="contact-form" action="submit_contact_message.php" method="POST">
@@ -123,7 +124,7 @@
             </div> 
 
             <div class="form-group">
-                <textarea id="contact-message" name="message" rows="4" cols="50" placeholder="Message"> </textarea>
+                <textarea placeholder="Message" id="contact-message" name="message" rows="4" cols="50" ></textarea>
             </div>
 
             <div class="form-group">

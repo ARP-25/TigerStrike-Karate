@@ -165,10 +165,10 @@ header a {
     top: 0;
     overflow: hidden;
     height: 600px;
+    border: 2px solid #ccc;
 }
-#sensei-video {
-    position: relative;
-    top: 120px;
+#video-container {
+    overflow:scroll;
 }
 
 #meet-the-sensei-outer div h3 {
@@ -216,7 +216,7 @@ th {
 }
 
 /*contact */
-#contact h3 {
+#contact h2 {
     font-size: 230%;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -294,6 +294,7 @@ input[type="submit"] {
 /*Styling footer*/
 footer {
     width: 100%;
+    padding: 60px 0 30px 0;
 }
 footer div {
     text-align: center;
@@ -303,16 +304,10 @@ footer div {
 footer div ul li {
     width: 10%;
     display: inline-block;
-    padding: 0 0 20px 0;
     font-size: 140%;    
 }
 
-#flex-container {
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    flex-flow: row wrap;
-}
+
 
 
 
