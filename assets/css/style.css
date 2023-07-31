@@ -79,8 +79,8 @@ header a {
     font-size: 130%;
     text-transform: uppercase;
     letter-spacing: 4px;
-    width: 350px;
-    height: 113px;
+    width: 400px;
+    height: 133px;
     text-align: center;
     background-color: rgb(31, 33, 34, .8);
     bottom: 435px;
@@ -91,7 +91,7 @@ header a {
     font-size: 130%;
     text-transform: uppercase;
     letter-spacing: 4px;
-    width: 300px;
+    width: 350px;
     height: 76px;
     text-align: center;
     background-color: rgb(31, 33, 34, .8);
@@ -103,7 +103,7 @@ header a {
     font-size: 130%;
     text-transform: uppercase;
     letter-spacing: 4px;
-    width: 300px;
+    width: 350px;
     height: 76px;
     text-align: center;
     background-color: rgb(31, 33, 34, .8);
@@ -115,7 +115,7 @@ header a {
     font-size: 130%;
     text-transform: uppercase;
     letter-spacing: 4px;
-    width: 300px;
+    width: 350px;
     height: 76px;
     text-align: center;
     background-color: rgb(31, 33, 34, .8);
@@ -123,6 +123,13 @@ header a {
     right: 425px;
     position: absolute;
 }
+#banner-outer div h3 {
+    padding:10px;
+}
+#banner-outer div h2 {
+    padding:10px;
+}
+
 @keyframes karate-blur {
     from {
       filter: blur(10px); 
@@ -132,6 +139,7 @@ header a {
       filter: blur(0);
     }
 }
+
 
 /* styling meet the sensei */
 #meet-the-sensei-outer {
@@ -168,6 +176,10 @@ header a {
     text-align: center;
     padding: 30px;
     font-weight: lighter;
+}
+#meet-the-sensei-outer > div > div {
+    height: 200px;
+    width: 100%;
 }
 
 
