@@ -75,6 +75,18 @@ header a {
     animation-duration: 3s;
     animation-fill-mode: forwards;
   }
+#achieve {
+    font-size: 130%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 350px;
+    height: 113px;
+    text-align: center;
+    background-color: rgb(31, 33, 34, .8);
+    bottom: 435px;
+    right: 400px;
+    position: absolute;      
+}
 #karate-benefit-one {
     font-size: 130%;
     text-transform: uppercase;
@@ -83,8 +95,8 @@ header a {
     height: 76px;
     text-align: center;
     background-color: rgb(31, 33, 34, .8);
-    bottom: 415px;
-    right: 400px;
+    bottom: 275px;
+    right: 425px;
     position: absolute;
 }
 #karate-benefit-two {
@@ -95,8 +107,8 @@ header a {
     height: 76px;
     text-align: center;
     background-color: rgb(31, 33, 34, .8);
-    bottom: 285px;
-    right: 400px;
+    bottom: 165px;
+    right: 425px;
     position: absolute;
 }
 #karate-benefit-three {
@@ -107,8 +119,8 @@ header a {
     height: 76px;
     text-align: center;
     background-color: rgb(31, 33, 34, .8);
-    bottom: 135px;
-    right: 400px;
+    bottom: 55px;
+    right: 425px;
     position: absolute;
 }
 @keyframes karate-blur {
@@ -124,18 +136,19 @@ header a {
 /* styling meet the sensei */
 #meet-the-sensei-outer {
     width: 100%;
-    height: 500px;
+    height: 700px;
+    color: white;
 }
 #meet-the-sensei-header {
     font-size: 230%;
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: center;
-    margin: 20px;
+    padding: 20px;
 }
 #meet-the-sensei-outer div {
     width: 33.3%;
-    height: 520px;
+    height: 600px;
     float: left;
 }
 #sensei-picture {
@@ -145,16 +158,36 @@ header a {
     overflow: hidden;
     height: 600px;
 }
+#sensei-video {
+    position: relative;
+    top: 120px;
+}
+
 #meet-the-sensei-outer div h3 {
     font-size: 150%;
     text-align: center;
     padding: 30px;
     font-weight: lighter;
 }
-#sensei-video {
-    padding-top: 100px;
-    height: 600px;
+
+
+/*test*/
+
+#meet-the-sensei-outer2 {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-top:10px;
 }
+#meet-the-sensei-h2 {
+    font-size: 230%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    padding: 20px;
+    color: green;
+}
+
 
 /* Styling location table*/
 #location-times-header {
@@ -169,6 +202,10 @@ header a {
     height: 289px;
     float: left;
     margin-bottom: 100px;
+}
+#location-times {
+    width: 100%;
+    height: 289px;
 }
 #maps {
     float:right;
@@ -231,14 +268,22 @@ footer {
 }
 footer div {
     text-align: center;
+    width: 100%;
+    height: 50px;
 }
 footer div ul li {
     width: 10%;
     display: inline-block;
     padding: 0 0 20px 0;
-    font-size: 140%;
+    font-size: 140%;    
 }
 
+#flex-container {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+}
 
 
 
