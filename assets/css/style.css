@@ -224,6 +224,8 @@ th {
     width:50%;
     height:300px; 
     display: inline-block;
+    border: 1px solid white;
+    box-sizing: border-box;
 }
 #container-picture {
     width:50%;
@@ -236,16 +238,6 @@ th {
     height: 300px;
     padding: 1em;
 }
-#contact-name {
-
-}
-#contact-email {
-
-}
-#contact-message {
-
-}
-
 #contact-picture {
     position:relative;
     bottom: 100px;
@@ -253,11 +245,6 @@ th {
 }
 
 /* Styling signup form */
-#container-form {
-    height: 700px;
-    width: 100%;
-    margin-bottom: 160px;
-}
 fieldset {
     margin-top: 5em;
     margin-bottom: 5em;
@@ -271,9 +258,10 @@ fieldset {
     box-sizing: border-box;
 }
 legend {
-    font-size: 1.25em;
+    font-size: 1.2em;
     padding: 0 .25em;
-    color: #999;
+    color: white;
+    font-weight: bold;
 }
 .form-group {
     padding-top: 1em;
@@ -283,6 +271,7 @@ legend {
 }
 input {
     padding: .5em;
+    border-radius: 3px;
 }
 input[type="submit"] {
     margin-top: 2.5em;
