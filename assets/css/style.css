@@ -68,13 +68,18 @@ header a {
     position: relative;
 }
 #karate-picture {
-    background: url("../images/karate.webp") no-repeat center center;
+    background: url("../images/thao-lee-Xl-ilWBKJNk-unsplash.jpg") no-repeat center center;
     height: 100%;
     width: 100%;
     animation-name: karate-blur;
     animation-duration: 3s;
     animation-fill-mode: forwards;
   }
+.center-horizontal {
+    position: absolute;
+    left: 50%;
+    transform: translate( -50%);
+}
 #achieve {
     font-size: 130%;
     text-transform: uppercase;
@@ -83,9 +88,7 @@ header a {
     height: 133px;
     text-align: center;
     background-color: rgb(31, 33, 34, .8);
-    bottom: 435px;
-    right: 400px;
-    position: absolute;      
+    bottom: 435px;     
 }
 #karate-benefit-one {
     font-size: 130%;
@@ -96,8 +99,6 @@ header a {
     text-align: center;
     background-color: rgb(31, 33, 34, .8);
     bottom: 275px;
-    right: 425px;
-    position: absolute;
 }
 #karate-benefit-two {
     font-size: 130%;
@@ -108,8 +109,6 @@ header a {
     text-align: center;
     background-color: rgb(31, 33, 34, .8);
     bottom: 165px;
-    right: 425px;
-    position: absolute;
 }
 #karate-benefit-three {
     font-size: 130%;
@@ -120,8 +119,6 @@ header a {
     text-align: center;
     background-color: rgb(31, 33, 34, .8);
     bottom: 55px;
-    right: 425px;
-    position: absolute;
 }
 #banner-outer div h3 {
     padding:8px;
@@ -306,6 +303,54 @@ footer div ul li {
     display: inline-block;
     font-size: 140%;    
 }
+
+/* gallery slider */
+
+.container-slider {
+    padding: 2rem;
+}
+.slider-wrapper {
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+.slider {
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+}
+.slider.img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+.slider-nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.slider-nav a {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.7;
+    transition: opacity easy 250ms;
+}
+.slider-nav a:hover {
+    opacity: 1;
+}
+
+
+
 
 
 
