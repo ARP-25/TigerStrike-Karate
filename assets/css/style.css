@@ -313,7 +313,7 @@ footer div ul li {
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     border-radius: 1rem;
-    min-width: 300px;
+    min-width: 280px;
     border: 2px solid white;
 }
 .slider.img {
@@ -423,6 +423,11 @@ footer div ul li {
         color: inherit;
         line-height: 65px;
       }
+    
+      /* slider */
+    .container-slider {
+        padding: 0.5rem;
+    }
 }
 @media screen and (max-width: 840px){
         /* contact */
