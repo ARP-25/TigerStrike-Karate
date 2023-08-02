@@ -94,7 +94,7 @@ header a {
     font-size: 130%;
     text-transform: uppercase;
     letter-spacing: 4px;
-    width: 350px;
+    width: 355px;
     height: 76px;
     text-align: center;
     background-color: rgb(31, 33, 34, .8);
@@ -104,7 +104,7 @@ header a {
     font-size: 130%;
     text-transform: uppercase;
     letter-spacing: 4px;
-    width: 350px;
+    width: 355px;
     height: 76px;
     text-align: center;
     background-color: rgb(31, 33, 34, .8);
@@ -114,7 +114,7 @@ header a {
     font-size: 130%;
     text-transform: uppercase;
     letter-spacing: 4px;
-    width: 350px;
+    width: 355px;
     height: 76px;
     text-align: center;
     background-color: rgb(31, 33, 34, .8);
@@ -137,13 +137,7 @@ header a {
     }
 }
 
-
-/* styling meet the sensei */
-#meet-the-sensei-outer {
-    width: 100%;
-    height: 700px;
-    color: white;
-}
+/*meet the sensei*/
 #meet-the-sensei-header {
     font-size: 230%;
     text-transform: uppercase;
@@ -151,34 +145,41 @@ header a {
     text-align: center;
     padding: 20px;
 }
-#meet-the-sensei-outer div {
-    width: 33.3%;
-    height: 600px;
-    float: left;
+#container-box {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
-#sensei-picture {
-    float: right;
+#container-box>div {
+    border:white 1px;
+    height:600px;
+    flex-basis: 500px;
+}
+#container-box>div>img {
     position: relative;
-    top: 0;
-    overflow: hidden;
-    height: 600px;
-    border: 2px solid #ccc;
+    right: 0px;
+    bottom: 105px;
 }
-#video-container {
-    overflow:scroll;
+#container-box>div>video {
+    position: relative;
+    right: 50px;
+    bottom: 220px;
 }
-
-#meet-the-sensei-outer div h3 {
+#video-div {
+    overflow: scroll;
+}
+#descrip-div h3 {
     font-size: 150%;
     text-align: center;
-    padding: 30px;
+    padding: 60px 50px;
     font-weight: lighter;
 }
-#meet-the-sensei-outer > div > div {
-    height: 200px;
-    width: 100%;
-}
 
+
+#img-div {
+    overflow: hidden;
+}
 
 /* Styling location table*/
 #location-times-header {
@@ -236,25 +237,28 @@ th {
 #contact-form {
     text-align: center;
     height: 300px;
-    padding: 1em;
+    position: relative;
+    top: 18px;
 }
 #contact-picture {
     position:relative;
     bottom: 100px;
-    right: 85px;
+    right: 180px;
 }
 
 /* Styling signup form */
+
+#container-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 fieldset {
     margin-top: 5em;
     margin-bottom: 5em;
     padding: 1em 2em;
     border: solid 1px #ccc;
     border-radius: 6px;
-    width: 20%;
-    position: relative;
-    left: 40%;
-    right: 40%;
     box-sizing: border-box;
 }
 legend {
@@ -273,6 +277,7 @@ input {
     padding: .5em;
     border-radius: 3px;
 }
+
 input[type="submit"] {
     margin-top: 2.5em;
 }
@@ -284,8 +289,6 @@ footer {
 }
 footer div {
     text-align: center;
-    width: 100%;
-    height: 50px;
 }
 footer div ul li {
     width: 10%;
@@ -294,7 +297,7 @@ footer div ul li {
 }
 
 
-
+/*slider*/
 .container-slider {
     padding: 2rem;
 }
@@ -339,6 +342,123 @@ footer div ul li {
 .slider-nav a:hover {
     opacity: 1;
 }
+
+/* test*/
+
+
+/* media queries */
+@media screen and (max-width: 530px){
+    /*meet the sensei*/
+    #container-box {
+        display:flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    #container-box>div {
+        border:white 1px;
+        height:400px;
+        flex-basis: 300px;
+    }
+    #container-box>div>img {
+        position: relative;
+        right: 90px;
+        bottom: 105px;
+    }
+    #container-box>div>video {
+        position: relative;
+        right: 50px;
+        bottom: 220px;
+    }
+    #video-div {
+        overflow: scroll;
+    }
+    #descrip-div h3 {
+        font-size: 100%;
+        text-align: center;
+        padding: 35px;
+        font-weight: lighter;
+    }
+    #img-div {
+        overflow: hidden;
+    }
+
+    /*location maps*/
+    #location-times-header {
+        font-size: 230%;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        text-align: center;
+        padding: 20px;
+    }
+    #location-times {
+        width: 100%;
+        height: 373px;
+    }
+    #maps {
+        float:left;
+        width: 100%;
+    }
+    #times h3 {
+        text-align: center;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }  
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+    }
+    th {
+        background-color: grey;
+    }
+
+    /*header*/
+    #logo {
+        float: left;
+        font-size: 125%;
+        margin-left: 5px;
+        color: inherit;
+        line-height: 65px;
+      }
+}
+@media screen and (max-width: 840px){
+        /* contact */
+    #contact h2 {
+        font-size: 230%;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        text-align: center;
+        padding: 20px;
+    }
+    #container-contact-form {
+        width: 100%;
+        height:300px; 
+        border: 1px solid white;
+        box-sizing: border-box;
+    }
+    #container-picture {
+        width:100%;
+        height:300px;
+        overflow:hidden;
+    }
+    #contact-form {
+        text-align: center;
+        height: 300px;
+        position: relative;
+        top: 18px;
+    }
+    #contact-picture {
+        position:relative;
+        bottom: 100px;
+        right: 400px;
+    }
+}
+
+   
+ 
 
 
 
