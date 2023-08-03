@@ -67,7 +67,7 @@ header a {
     position: relative;
 }
 #karate-picture {
-    background: url("assets/images_gallery/gallery_one.jpg");
+    background: url("../images_videos_home/home_one.jpg") no-repeat center center;
     height: 100%;
     width: 100%;
     animation-name: karate-blur;
