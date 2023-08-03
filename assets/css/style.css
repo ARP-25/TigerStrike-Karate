@@ -253,7 +253,7 @@ th {
     justify-content: center;
     align-items: center;
 }
-fieldset {
+#signup-fieldset {
     margin-top: 5em;
     margin-bottom: 5em;
     padding: 1em 2em;
@@ -475,7 +475,7 @@ footer div ul li {
         padding: 100px 0 0 22px;
     }
   
-    fieldset {
+    #signup-fieldset {
         margin-top: 5em;
         margin-bottom: 5em;
         padding: 1em 2em;

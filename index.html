@@ -14,20 +14,18 @@
 
 <body>
     <header>
-        <a href="index.html" id="logo"><h1>TigerStrike Karate</h1></a>
+        <a href="index.html" id="logo" aria-label="Logo of the page (goes to top of the page by clicking)"><h1>TigerStrike Karate</h1></a>
         <nav>
             <ul id="menu">
-                <li class="menuelements"><a href="index.html" class="active">Home</a></li>
-                <li class="menuelements"><a href="gallery.html">Gallery</a></li>
-                <li class="menuelements"><a href="signup.html">Sign up</a></li>
+                <li class="menuelements"><a href="index.html" class="active" aria-label="Go to the top of the page" >Home</a></li>
+                <li class="menuelements"><a href="gallery.html" aria-label="Go to the Gallery of the page">Gallery</a></li>
+                <li class="menuelements"><a href="signup.html" aria-label="Go to the Signup of the page">Sign up</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="banner-outer">
-        <div id="karate-picture"></div>
-
-
+    <section id="banner-outer" aria-label="banner with slogans">
+        <div id="karate-picture" aria-label="Picture of TigerStrike KarateSchool students exercising at the beach" alt="Picture of TigerStrike KarateSchool students exercising at the beach"></div>
             <div id="achieve" class="center-horizontal">
                 <h2>Join TigerStrike<br>Karate School<br> and achieve </h2>
             </div>   
@@ -45,11 +43,11 @@
 
 
 
-    <section>
+    <section aria-label="Introduction of the Tigerstrike Karate School sensei">
         <h2 id="meet-the-sensei-header">Meet the Sensei </h2>
         <div id="container-box">
             <div id="img-div">
-                <img src="/assets/images_videos_home/karate_sensei.jpeg">
+                <img src="/assets/images_videos_home/karate_sensei.jpeg" alt="Picture of the TigerStrike Karate School sensei" aria-label="Picture of the TigerStrike Karate School sensei">
             </div>
 
             <div id="descrip-div">
@@ -64,23 +62,22 @@
                 </div>
             </div>
 
-            <div id="video-div">
-                <video controls>
-                    <source src="/assets/images_videos_home/pexels-rodnae-productions-7045243 (540p).mp4" type=video/mp4>
-                    <!--<source src="https://media.istockphoto.com/id/487961262/de/video/training-kampfsport.mp4?s=mp4-640x640-is&k=20&c=SvpEjKO3ul084mJhSPhwm5XeVbmPrDhR8lA7A0XcvMc=" type=video/mp4>-->
+            <div id="video-div" >
+                <video controls alt="Picture of the TigerStrike Karate School sensei" aria-label="Video of the TigerStrike Karate School sensei">
+                    <source src="/assets/images_videos_home/pexels-rodnae-productions-7045243 (540p).mp4" type=video/mp4>                  
                 </video>
             </div>
         </div>
 
     </section>
 
-    <section>
+    <section aria-label="Location of TigerStrike Karate School on google maps and times table for classes">
         <h2 id="location-times-header">Find Us Easily and Visit Us with Pleasure - Location & Classes</h2>
         <div id="location">
-            <iframe id="maps" width="50%" height="289" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2460.6531518651755!2d4.4628067769394635!3d51.92203898032803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c434a4b5d580d5%3A0xab0eea68258e8b0a!2sCoolsestraat%203%2C%203014%20LA%20Rotterdam%2C%20Niederlande!5e0!3m2!1sde!2sde!4v1690552433708!5m2!1sde!2sde" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe id="maps" width="50%" height="289" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2460.6531518651755!2d4.4628067769394635!3d51.92203898032803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c434a4b5d580d5%3A0xab0eea68258e8b0a!2sCoolsestraat%203%2C%203014%20LA%20Rotterdam%2C%20Niederlande!5e0!3m2!1sde!2sde!4v1690552433708!5m2!1sde!2sde" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" aria-label="Location on google maps" alt="Location on google maps"></iframe>
         </div>
         <div id="times">
-        <table>
+        <table aria-label="Table for class times" alt="Table for class times">
             <tr>
                 <th>Day</th>
                 <th>Classes</th>
@@ -117,37 +114,37 @@
         </div>
     </section>
     
-    <section id="contact">
-
+    <section id="contact" aria-label="Contact formular">
         <h2>any questions? feel free to contact us</h2>
 
         <div id="container-contact-form">
-        <form id="contact-form" action="submit_contact_message.php" method="POST">
-            <div class="form-group">
-                <input id="contact-name" type="text" placeholder="Name">
-            </div>
+        <form id="contact-form" action="success.html" method="POST">
+            <fieldset id="contact-fieldset">
+                <div class="form-group">
+                   <input id="contact-name" type="text" placeholder="Name" required>
+                </div>
 
-            <div class="form-group">
-                <input id="contact-email" type="text" placeholder="E-Mail">
-            </div> 
+                <div class="form-group">
+                    <input id="contact-email" type="text" placeholder="E-Mail" required>
+                </div> 
 
-            <div class="form-group">
-                <textarea placeholder="Message" id="contact-message" name="message" rows="4" cols="40" ></textarea>
-            </div>
+                <div class="form-group">
+                    <textarea placeholder="Message" id="contact-message" name="message" rows="4" cols="40" required></textarea>
+                </div>
 
-            <div class="form-group">
-                <input type="submit" value="Submit">
-            </div>
-
+                <div class="form-group">
+                    <input type="submit" value="Submit" aria-label="Submit message">
+                </div>
+            </fieldset>
         </form>
         </div>
 
         <div id="container-picture">
-        <img id="contact-picture" src="/assets/images_videos_home/contact.jpeg" alt="picture of people using their phone to connect">
+        <img id="contact-picture" src="/assets/images_videos_home/contact.jpeg" aria-label="Picture of people using their phone to connect" alt="Picture of people using their phone to connect">
         </div>
     </section>
 
-    <footer>
+    <footer aria-label="List of social links">
         <div>
             <ul id="social-list">
                 <li class="footer-elements"><a href="https://facebook.com" target="_blank" rel="noopener no referrer"
