@@ -14,17 +14,17 @@
 
 <body>
     <header>
-        <a href="index.html" id="logo"><h1>TigerStrike Karate</h1></a>
+        <a href="index.html" id="logo" aria-label="Logo of the page (goes to top of the page by clicking)"><h1>TigerStrike Karate</h1></a>
         <nav>
             <ul id="menu">
-                <li class="menuelements"><a href="index.html">Home</a></li>
-                <li class="menuelements"><a href="gallery.html">Gallery</a></li>
-                <li class="menuelements"><a href="signup.html" class="active">Sign up</a></li>
+                <li class="menuelements"><a href="index.html" aria-label="Go to the top of the page" >Home</a></li>
+                <li class="menuelements"><a href="gallery.html" aria-label="Go to the Gallery of the page">Gallery</a></li>
+                <li class="menuelements"><a href="signup.html" class="active" aria-label="Go to the Signup of the page">Sign up</a></li>
             </ul>
         </nav>
     </header>
 
-    <section>
+    <section aria-label="Registration formular">
     <div id="container-signup">   
     <form action="submit.php" method="POST">
         <fieldset id="signup-fieldset">
@@ -91,14 +91,14 @@
             <textarea id="message" name="message" rows="4" cols="30"></textarea>
         </div>
 
-        <input type="submit" value="Sign Up!">
+        <input type="submit" value="Sign Up!" aria-label="Submit student information">
 
         </fieldset>
     </form>
     </div> 
     </section>
 
-    <footer>
+    <footer aria-label="List of social links">
         <div>
             <ul id="social-list">
                 <li class="footer-elements"><a href="https://facebook.com" target="_blank" rel="noopener no referrer"
