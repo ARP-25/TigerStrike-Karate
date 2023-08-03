@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto+Condensed:wght@300;700&family=Rubik:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto+Condensed:wght@300;700&family=Rubik:wght@900&display=swap');
 
 
 * {
@@ -68,7 +68,7 @@ header a {
     position: relative;
 }
 #karate-picture {
-    background: url("/assets/images_videos_home/thao-lee-Xl-ilWBKJNk-unsplash.jpg") no-repeat center center;
+    background: url("/assets/images_videos_home/thao-lee-Xl-ilWBKJNk-unsplash.jpg") no-repeat center center ;
     height: 100%;
     width: 100%;
     animation-name: karate-blur;
@@ -332,15 +332,18 @@ footer div ul li {
     padding-top: 2rem;
 }
 .slider-nav a {
-    width: 0.5rem;
-    height: 0.5rem;
+    width: 0.7rem;
+    height: 0.7rem;
     border-radius: 50%;
     background-color: white;
     opacity: 0.7;
-    transition: opacity easy 250ms;
+    transition: 500ms;
 }
 .slider-nav a:hover {
     opacity: 1;
+}
+.half-screen {
+    width: 50%;
 }
 
 /* media queries */
