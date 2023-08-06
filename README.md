@@ -128,7 +128,7 @@ For validator testing https://validator.w3.org/ and https://jigsaw.w3.org/css-va
     - Chrome Version 115.0.5790.111 (Official Build) (64-bit)
     - Firefox Version 116.0 (64-bit)
     - Edge Version 115.0.1901.188 (Official build) (64-bit)
-    - Safari on iPhone (iOS-Version 16.5.1 (c))
+    - Safari on iPhone (iOS-Version 14.6 (c))
 
 ### Test Cases and Results
 
