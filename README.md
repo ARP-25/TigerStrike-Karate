@@ -77,4 +77,51 @@ TigerStrike Karate is a fictional Webpage installed to extend the online presenc
 
 ![SignUp](documentation/doc_images/readme_features_f08.png)
 
+### Features which could be implemented in teh future
 
+- Student reviews/comments.
+- Login to access personal account which can contain infos about progress in the course or a learning plattform where you can watch lessons or technique videos.
+- Forum.
+- News section.
+
+## Design
+
+-   ### Imagery
+    -   The pictures throughout the site are chosen to present the TigerStrike Karate School including their sensei and students. The viewer is directly given the information of what he can expect joining the school. 
+
+-   ### Colour Scheme
+    -  The color Scheme is adjusted to fit to a Karate School. For example a Karate Gi is usually associated with a white robe and a black belt and just has a minimal look. Therefore a simple white has been chosen for the font and a dark gray (rgb(31, 33, 34))for the background and several elements to keep it clean and provide a good contrast.
+
+-   ### Typography
+    -   Google Fonts was used to import Roboto Condensed font into styles.css.  It was chosen because it has a modern design, balanced proportions and open letterforms which contribute to its readability.
+
+-   ### Wireframes
+
+    -   #### Main Page Wireframes
+
+        ![Main](documentation/wireframes/index-page.png)
+
+    -   #### Gallery Page Wireframes
+
+        ![Menu](documentation/wireframes/menu-page.png)
+
+    -   #### Sign up Page Wireframes
+
+        ![Contact](documentation/wireframes/contact-page.png)
+
+## Technologies Used
+
+### Languages Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [Markdown](https://de.wikipedia.org/wiki/Markdown)
+
+### Frameworks, Libraries & Programs Used
+
+-   [CodeAnywhere:](https://app.codeanywhere.com/) was used as IDE to create the code. It provides good compatibility with github and offers useful IDE extensions.
+-   [Google Fonts:](https://fonts.google.com/) was used to import fonts.
+-   [Font Awesome:](https://fontawesome.com/) was used to add icons for aesthetic and UX purposes.
+-   [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
+-   [ILoveImg:](https://www.iloveimg.com) was used for resizing images and editing photos for the website.
+-   [Balsamiq:](https://balsamiq.com/) was used to create the wireframes during the design process.
