@@ -97,17 +97,7 @@ TigerStrike Karate is a fictional Webpage installed to extend the online presenc
 
 -   ### Wireframes
 
-    -   #### Main Page Wireframes
-
-        ![Main](documentation/wireframes/index-page.png)
-
-    -   #### Gallery Page Wireframes
-
-        ![Menu](documentation/wireframes/menu-page.png)
-
-    -   #### Sign up Page Wireframes
-
-        ![Contact](documentation/wireframes/contact-page.png)
+WIREFRAMES
 
 ## Technologies Used
 
@@ -125,3 +115,21 @@ TigerStrike Karate is a fictional Webpage installed to extend the online presenc
 -   [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
 -   [ILoveImg:](https://www.iloveimg.com) was used for resizing images and editing photos for the website.
 -   [Balsamiq:](https://balsamiq.com/) was used to create the wireframes during the design process.
+
+## Testing
+
+### Validator Testing
+
+For validator testing https://validator.w3.org/ and https://jigsaw.w3.org/css-validator/ were used and the code runs warning and error free.
+
+### Browser Compatibility
+
+- Testing has been carried out on the following browsers :
+    - Chrome Version 115.0.5790.111 (Official Build) (64-bit)
+    - Firefox Version 116.0 (64-bit)
+    - Edge Version 115.0.1901.188 (Official build) (64-bit)
+    - Safari on iPhone (iOS-Version 16.5.1 (c))
+
+### Test Cases and Results
+
+TABLE OF TESTS
