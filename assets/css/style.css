@@ -313,7 +313,7 @@ footer div ul li {
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     border-radius: 1rem;
-    min-width: 280px;
+
     border: 2px solid white;
 }
 .slider.img {
