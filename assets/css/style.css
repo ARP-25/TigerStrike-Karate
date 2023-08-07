@@ -267,6 +267,9 @@ legend {
     color: white;
     font-weight: bold;
 }
+.container-input{
+    display:flex;
+}
 .form-group {
     padding-top: 1em;
 }
@@ -388,6 +391,7 @@ footer div ul li {
       /* slider */
     .container-slider {
         padding: 0.5rem;
+        padding-top: 100px;
     }
 }
 @media screen and (max-width: 840px){
