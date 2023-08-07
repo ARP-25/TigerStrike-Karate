@@ -97,7 +97,10 @@ TigerStrike Karate is a fictional Webpage installed to extend the online presenc
 
 -   ### Wireframes
 
-    [WireFrames](https://www.figma.com/file/pGU6MCfsyvi8nVRwshKWAI/TigerStrike-Karate?type=design&node-id=0%3A1&mode=design&t=HXw8p3nVZATMsvNZ-1)
+    [WireFrames TigerStrike Karate](https://www.figma.com/file/pGU6MCfsyvi8nVRwshKWAI/TigerStrike-Karate?type=design&node-id=0%3A1&mode=design&t=HXw8p3nVZATMsvNZ-1)
+
+    ![WireFrames Screenshot](documentation/doc_images/wireframes.png)
+
 
 ## Technologies Used
 
