@@ -146,6 +146,7 @@ header a {
     letter-spacing: 4px;
     text-align: center;
     padding: 20px;
+    margin: 25px 0;
 }
 #container-box {
     display:flex;
@@ -187,8 +188,8 @@ header a {
     letter-spacing: 4px;
     text-align: center;
     padding: 20px;
+    margin-top: 25px;
 }
-
 .fitter {
     width: 45%;
     min-width: 300px;
