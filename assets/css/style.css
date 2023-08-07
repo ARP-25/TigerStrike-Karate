@@ -193,7 +193,7 @@ header a {
     width: 45%;
     min-width: 300px;
     border-collapse: collapse;
-    margin: 10px;
+    margin: 25px;
 }
 #container-location {
     display: flex;
