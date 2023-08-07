@@ -136,3 +136,36 @@ For validator testing https://validator.w3.org/ and https://jigsaw.w3.org/css-va
 ### Test Cases and Results
 
 TABLE OF TESTS
+
+## Deployment
+
+### How this site was deployed
+
+- In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu, 
+- From the source section drop-down menu, select the Master Branch,
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment,
+- Any changes pushed to the master branch will take effect on the live project,
+
+  The live link can be found here - [TigerStrike Karate](https://arp-25.github.io/tiger_strike_karate/index.html) 
+
+### How to clone the repository
+
+- Go to the https://github.com/ARP-25/tiger_strike_karate repository on GitHub 
+- Click the "Code" button to the right of the screen, click HTTPs and copy the link there
+- Open a GitBash terminal and navigate to the directory where you want to locate the clone
+- On the command line, type "git clone" then paste in the copied url and press the Enter key to begin the clone process
+
+## Credits 
+
+### Content 
+
+All content was written by the developer.
+
+### Code
+
+Examples and instructions for basic html and CSS code:
+
+- https://developer.mozilla.org
+- https://www.w3schools.com
+- https://learn.codeinstitute.net/
+
