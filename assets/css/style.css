@@ -317,11 +317,6 @@ footer div ul li {
     border: 2px solid white;
 }
 .slider img {
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 100%;
-    min-height: 100vh;
-    min-width: 100vh;
     scroll-snap-align: start;
     object-fit: cover;
 }
@@ -354,6 +349,10 @@ footer div ul li {
 
 /* media queries */
 @media screen and (max-width: 530px){
+    /* logo */
+    #logo {
+        text-align: center;
+    }
     /*meet the sensei*/
     #container-box {
         display:flex;
