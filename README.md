@@ -6,6 +6,7 @@ TigerStrike Karate is a fictional Webpage installed to extend the online presenc
 
 [Click here to view the Live Project](https://arp-25.github.io/tiger_strike_karate/index.html)
 
+
 ## Table of contents
 
 - User Experience (UX)
@@ -15,6 +16,7 @@ TigerStrike Karate is a fictional Webpage installed to extend the online presenc
 - Testing
 - Deployment
 - Credits
+
 
 ## User Experience (UX)
 
@@ -28,6 +30,7 @@ TigerStrike Karate is a fictional Webpage installed to extend the online presenc
     5. Have information where the school is located.
     6. Get in contact via text message, e-mail or phone.
     7. Sign up online.
+
 
 ## Features
 
@@ -77,15 +80,9 @@ TigerStrike Karate is a fictional Webpage installed to extend the online presenc
 
 ![SignUp](documentation/doc_images/readme_features_f08.png)
 
+### Table of Features and User Stories combined
 
-### Features which could be implemented in the future
-
-- Student reviews/comments.
-- Login to access personal account which can contain infos about progress in the course, a learning plattform where you can re-watch lessons or technique videos.
-- Forum.
-- News section.
-
-## Table of Features and User Storys combined
+In this table you can see if a User Story from Section One is covered by a implemented Feature.
 
 |                | US01     | US02     | US03     | US04     | US05     | US06     | US07     |
 |----------------|----------|----------|----------|----------|----------|----------|----------|
@@ -97,6 +94,13 @@ TigerStrike Karate is a fictional Webpage installed to extend the online presenc
 | F06 Footer     |          |          |          | x        |          | x        |          |
 | F07 Galler     | x        |          | x        | x        |          |          |          |
 | F08 SignUp     |          |          |          |          |          |          | x        |
+
+### Features which could be implemented in the future
+
+- Student reviews/comments.
+- Login to access personal account which can contain infos about progress in the course, a learning plattform where you can re-watch lessons or technique videos.
+- Forum.
+- News section.
 
 
 ## Design
@@ -134,6 +138,7 @@ TigerStrike Karate is a fictional Webpage installed to extend the online presenc
 -   [ILoveImg:](https://www.iloveimg.com) was used for resizing images and editing photos for the website.
 -   [Figma:](https://www.figma.com/) was used to create the wireframes during the design process.
 
+
 ## Testing
 
 ### Validator Testing
@@ -150,7 +155,8 @@ For validator testing https://validator.w3.org/ and https://jigsaw.w3.org/css-va
 
 ### Test Cases and Results
 
-TABLE OF TESTS
+
+
 
 ## Deployment
 
@@ -170,6 +176,7 @@ TABLE OF TESTS
 - Open a GitBash terminal and navigate to the directory where you want to locate the clone
 - On the command line, type "git clone" then paste in the copied url and press the Enter key to begin the clone process
 
+
 ## Credits 
 
 ### Content 
@@ -183,6 +190,11 @@ Examples and instructions for basic html and CSS code:
 - https://developer.mozilla.org
 - https://www.w3schools.com
 - https://learn.codeinstitute.net/
+
+Additional searching for problemfixes:
+
+- https://stackoverflow.com
+- https://www.youtube.com/?gl=DE&hl=de
 
 ### Media 
  
