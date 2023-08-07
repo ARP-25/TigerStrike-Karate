@@ -316,7 +316,7 @@ footer div ul li {
     min-width: 280px;
     border: 2px solid white;
 }
-.slider.img {
+.slider img {
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 100%;
@@ -347,6 +347,9 @@ footer div ul li {
 }
 .half-screen {
     width: 50%;
+}
+.cover {
+    object-fit: cover;
 }
 
 /* media queries */
