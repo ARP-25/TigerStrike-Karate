@@ -155,26 +155,26 @@ For validator testing https://validator.w3.org/ and https://jigsaw.w3.org/css-va
 
 ### Test Cases and Results
 
-
+![ManualTesting](documentation/doc_images/testing_table.png)
 
 
 ## Deployment
 
 ### How this site was deployed
 
-- In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu, 
-- From the source section drop-down menu, select the Master Branch,
-- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment,
-- Any changes pushed to the master branch will take effect on the live project,
+- In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu.
+- From the source section drop-down menu, select the Master Branch.
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- Any changes pushed to the master branch will take effect on the live project.
 
   The live link can be found here - [TigerStrike Karate](https://arp-25.github.io/tiger_strike_karate/index.html) 
 
 ### How to clone the repository
 
-- Go to the https://github.com/ARP-25/tiger_strike_karate repository on GitHub 
-- Click the "Code" button to the right of the screen, click HTTPs and copy the link there
-- Open a GitBash terminal and navigate to the directory where you want to locate the clone
-- On the command line, type "git clone" then paste in the copied url and press the Enter key to begin the clone process
+- Go to the https://github.com/ARP-25/tiger_strike_karate repository on GitHub.
+- Click the "Code" button to the right of the screen, click HTTPs and copy the link there.
+- Open a GitBash terminal and navigate to the directory where you want to locate the clone.
+- On the command line, type "git clone" then paste in the copied url and press the Enter key to begin the clone process.
 
 
 ## Credits 
@@ -198,7 +198,7 @@ Additional searching for problemfixes:
 
 ### Media 
  
-- All icons were taken from [Font Awesome](https://fontawesome.com/)
-- All fonts used were imported from [Google Fonts](https://fonts.google.com/)
-- All images were downloaded from [Pexels](https://www.pexels.com) 
+- All icons were taken from [Font Awesome](https://fontawesome.com/).
+- All fonts used were imported from [Google Fonts](https://fonts.google.com/).
+- All images were downloaded from [Pexels](https://www.pexels.com).
 
