@@ -21,13 +21,13 @@ TigerStrike Karate is a fictional Webpage installed to extend the online presenc
 ### User stories
 
 - Visitor Goals
-    - Easily understand what the aim of the page is.
-    - Comfortably navigate through the site and access the content.
-    - Be able to get a quick idea of the benefits signing up to a Karate School.
-    - Get a grasp if a signup is suitable for one self.
-    - Have information where the school is located.
-    - Get in contact via text message, e-mail or phone.
-    - Sign up online.
+    1. Easily understand what the aim of the page is.
+    2. Comfortably navigate through the site and access the content.
+    3. Be able to get a quick idea of the benefits signing up to a Karate School.
+    4. Get a grasp if a signup is suitable for one self.
+    5. Have information where the school is located.
+    6. Get in contact via text message, e-mail or phone.
+    7. Sign up online.
 
 ## Features
 
@@ -77,23 +77,38 @@ TigerStrike Karate is a fictional Webpage installed to extend the online presenc
 
 ![SignUp](documentation/doc_images/readme_features_f08.png)
 
-### Features which could be implemented in teh future
+
+### Features which could be implemented in the future
 
 - Student reviews/comments.
-- Login to access personal account which can contain infos about progress in the course or a learning plattform where you can watch lessons or technique videos.
+- Login to access personal account which can contain infos about progress in the course, a learning plattform where you can re-watch lessons or technique videos.
 - Forum.
 - News section.
+
+## Table of Features and User Storys combined
+
+|                | US01     | US02     | US03     | US04     | US05     | US06     | US07     |
+|----------------|----------|----------|----------|----------|----------|----------|----------|
+| F01 NavBar     |          | x        |          |          |          |          |          |
+| F02 BanSlo     | x        |          | x        |          |          |          |          |
+| F03 MeetTS     |          |          |          | x        |          |          |          |
+| F04 LocCla     |          |          |          | x        | x        |          |          |
+| F05 Contac     |          |          |          | x        | x        | x        |          |
+| F06 Footer     |          |          |          | x        |          | x        |          |
+| F07 Galler     | x        |          | x        | x        |          |          |          |
+| F08 SignUp     |          |          |          |          |          |          | x        |
+
 
 ## Design
 
 -   ### Imagery
-    -   The pictures throughout the site are chosen to present the TigerStrike Karate School including their sensei and students. The viewer is directly given the information of what he can expect joining the school. 
+    -   The pictures throughout the site are chosen to present the TigerStrike Karate School including their sensei and students. The viewer is directly given the information of what he can expect from joining the school. 
 
 -   ### Colour Scheme
     -  The color Scheme is adjusted to fit to a Karate School. For example a Karate Gi is usually associated with a white robe and a black belt and just has a minimal look. Therefore a simple white has been chosen for the font and a dark gray (rgb(31, 33, 34))for the background and several elements to keep it clean and provide a good contrast.
 
 -   ### Typography
-    -   Google Fonts was used to import Roboto Condensed font into styles.css.  It was chosen because it has a modern design, balanced proportions and open letterforms which contribute to its readability.
+    -   Google Fonts was used to import Roboto Condensed font into styles.css. It was chosen because it has a modern design, balanced proportions and open letterforms which contribute to its readability.
 
 -   ### Wireframes
 
@@ -117,7 +132,7 @@ TigerStrike Karate is a fictional Webpage installed to extend the online presenc
 -   [Font Awesome:](https://fontawesome.com/) was used to add icons for aesthetic and UX purposes.
 -   [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
 -   [ILoveImg:](https://www.iloveimg.com) was used for resizing images and editing photos for the website.
--   [Balsamiq:](https://balsamiq.com/) was used to create the wireframes during the design process.
+-   [Figma:](https://www.figma.com/) was used to create the wireframes during the design process.
 
 ## Testing
 
@@ -168,4 +183,10 @@ Examples and instructions for basic html and CSS code:
 - https://developer.mozilla.org
 - https://www.w3schools.com
 - https://learn.codeinstitute.net/
+
+### Media 
+ 
+- All icons were taken from [Font Awesome](https://fontawesome.com/)
+- All fonts used were imported from [Google Fonts](https://fonts.google.com/)
+- All images were downloaded from [Pexels](https://www.pexels.com) 
 
