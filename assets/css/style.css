@@ -164,12 +164,8 @@ header a {
     bottom: 105px;
 }
 #container-box>div>video {
-    position: relative;
-    right: 50px;
-    bottom: 220px;
-}
-#video-div {
-    overflow: scroll;
+    width: 100%;
+    height: 100%;
 }
 #descrip-div h3 {
     font-size: 150%;
@@ -369,14 +365,6 @@ footer div ul li {
         position: relative;
         right: 90px;
         bottom: 105px;
-    }
-    #container-box>div>video {
-        position: relative;
-        right: 50px;
-        bottom: 220px;
-    }
-    #video-div {
-        overflow: scroll;
     }
     #descrip-div h3 {
         font-size: 100%;
