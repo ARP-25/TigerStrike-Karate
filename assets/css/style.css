@@ -321,6 +321,7 @@ footer div ul li {
     flex-shrink: 0;
     flex-basis: 100%;
     min-height: 100vh;
+    min-width: 100vh;
     scroll-snap-align: start;
     object-fit: cover;
 }
