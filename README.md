@@ -1,4 +1,3 @@
-# tiger_strike_karate
 # TigerStrike Karate <br>
 ![titleimage](documentation/doc_images/titleimage.png) 
 # Description
