@@ -142,7 +142,13 @@ In this table you can see if a User Story from Section One is covered by a imple
 
 ### Validator Testing
 
-For validator testing https://validator.w3.org/ and https://jigsaw.w3.org/css-validator/ were used and the code runs warning and error free.
+For validator testing https://validator.w3.org/ and https://jigsaw.w3.org/css-validator/ were used. The code runs warning and error free.
+
+### Performance
+
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website.
+
+![Lighthouse](documentation/doc_images/lighthouse.png)
 
 ### Browser Compatibility
 
