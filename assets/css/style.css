@@ -7,7 +7,7 @@
     border: none;
 }
 
-/* Style header (Logo and Menu) */
+/* header */
 header {
     height: 65px;
     width: 100%;  
@@ -42,7 +42,7 @@ header {
 }
 
 
-/* :hover vorgefertige Klasse für hover über Element -> Handlung */
+/* adds hovering effect */
 #menu a:hover {
     border-bottom: 1px solid white;
 }
@@ -52,12 +52,12 @@ a {
 a:visited {
     color: inherit;
 }
-/* .active Klasse, angewendet auf einem <a> Element gibt eine bottom border wenn man auf href von <a> ist */
+/* adds perma underscore to active element */
 .active {
     border-bottom: 1px solid white;
 }
 
-/* Style body */
+/* body */
 body {
     font-family: Roboto Condensed, sans-serif;
     font-weight: 300;
@@ -70,7 +70,7 @@ header a {
     letter-spacing: 4px;
 }
 
-/* style banner */
+/* banner */
 #banner-outer {
     height: 600px;
     width: 100%;
@@ -136,7 +136,6 @@ header a {
 #banner-outer div h2 {
     padding:10px;
 }
-
 @keyframes karate-blur {
     from {
       filter: blur(10px); 
@@ -147,9 +146,7 @@ header a {
     }
 }
 
-
-
-/*meet the sensei*/
+/* meet the sensei */
 #meet-the-sensei-header {
     font-size: 230%;
     text-transform: uppercase;
@@ -188,7 +185,7 @@ header a {
     overflow: hidden;
 }
 
-/* Styling location table*/
+/* location_table*/
 #times h3 {
     text-align: center;
 }
@@ -221,7 +218,7 @@ th {
     background-color: black;
 }
 
-/*contact */
+/* contact */
 #contact h2 {
     font-size: 230%;
     text-transform: uppercase;
@@ -248,7 +245,7 @@ th {
     height: 300px;
 }
 
-/* Styling signup form */
+/* signup form */
 #container-signup {
     display: flex;
     justify-content: center;
@@ -286,7 +283,7 @@ input[type="submit"] {
     margin-top: 2.5em;
 }
 
-/*Styling footer*/
+/* footer */
 footer {
     width: 100%;
     padding: 30px 0;
@@ -302,7 +299,7 @@ footer div ul li {
 }
 
 
-/*slider*/
+/* slider */
 .container-slider {
     padding: 4rem;
 }
@@ -415,7 +412,7 @@ footer div ul li {
         margin-top: 280px;
     }
 
-    /*signup*/
+    /* signup */
     #container-signup {
         display: block;
         width: 260px;
