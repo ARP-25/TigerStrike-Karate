@@ -350,7 +350,25 @@ footer div ul li {
 }
 
 /* media queries */
-@media screen and (max-width: 530px){
+@media screen and (max-width: 545px){
+    /*header*/
+    #logo {
+        display: contents;
+        text-align: center;
+        font-size: 100%;
+        margin-left: 0px;
+    }
+    #menu {
+        display: block;
+        list-style-type: none;
+        margin-right: 0px;
+        line-height: 65px;
+        font-size: 110%;
+        letter-spacing: 4px;
+        float: none;
+        text-align: center;
+    }
+
     /*meet the sensei*/
     #container-box {
         display:flex;
@@ -378,15 +396,6 @@ footer div ul li {
         overflow: hidden;
     }
 
-    /*header*/
-    #logo {
-        float: left;
-        font-size: 125%;
-        color: inherit;
-        line-height: 65px;
-        text-align: center;
-        padding-right: 50px;
-    }
     /* slider */
     .container-slider {
         padding: 0.5rem;
