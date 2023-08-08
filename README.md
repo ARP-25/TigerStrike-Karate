@@ -60,7 +60,6 @@ TigerStrike Karate is a fictional Webpage installed to extend the online presenc
 
 - F05 Contact
     - Small contact form for curious visitors which want to get in touch with a non-commital message.
-    - Picture of people connecting making it clear that this is the section provided to get easily in contact. 
 
 ![Contact](documentation/doc_images/readme_features_f05.png) 
 
