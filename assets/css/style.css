@@ -9,7 +9,7 @@
 
 /* Style header (Logo and Menu) */
 header {
-    height: 68px;
+    height: 65px;
     width: 100%;  
 }
 .sticky {
@@ -17,7 +17,7 @@ header {
     top: 0;
     width: 100%;
     z-index: 100;
-    background-color: rgb(31, 33, 34);
+    background-color: black;
   }
 #logo {
     float: left;
@@ -289,6 +289,7 @@ input[type="submit"] {
 footer {
     width: 100%;
     padding: 60px 0 30px 0;
+    background-color: black;
 }
 footer div {
     text-align: center;
@@ -349,10 +350,6 @@ footer div ul li {
 
 /* media queries */
 @media screen and (max-width: 530px){
-    /* logo */
-    #logo {
-        text-align: center;
-    }
     /*meet the sensei*/
     #container-box {
         display:flex;
@@ -384,11 +381,12 @@ footer div ul li {
     #logo {
         float: left;
         font-size: 125%;
-        margin-left: 20px;
         color: inherit;
         line-height: 65px;
-      }
-      /* slider */
+        text-align: center;
+        padding-right: 50px;
+    }
+    /* slider */
     .container-slider {
         padding: 0.5rem;
         padding-top: 100px;
