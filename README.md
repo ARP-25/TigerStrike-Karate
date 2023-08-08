@@ -9,8 +9,8 @@ TigerStrike Karate is a fictional Webpage installed to extend the online presenc
 
 ## Table of contents
 
-- User Experience (UX)
-- Features
+1. [User Experience (UX)](#User-Experience (UX))
+2. [Features](#Features)
 - Design
 - Technologies Used
 - Testing
