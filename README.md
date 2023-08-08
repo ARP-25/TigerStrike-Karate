@@ -71,7 +71,7 @@ TigerStrike Karate is a fictional Webpage installed to extend the online presenc
 - F07 Gallery
     - Gallery implemented as a slider to give user a comfortable and easy way to watch through the pictures.
 
-![GallerySlider](documentation/doc_images/readme_features_f07.png) 
+![GallerySlider](documentation/doc_images/readme_features_f09.png) 
 
 - F08 Sign up
     - Form for signing into the school.
