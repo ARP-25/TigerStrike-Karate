@@ -9,13 +9,13 @@ TigerStrike Karate is a fictional Webpage installed to extend the online presenc
 
 ## Table of contents
 
-1. [User Experience (UX)](#User-Experience (UX))
+1. [User Experience (UX)](#User-Experience-(UX))
 2. [Features](#Features)
-- Design
-- Technologies Used
-- Testing
-- Deployment
-- Credits
+3. [Design](#Design)
+4. [Technologies Used](#Technologies-Used)
+5. [Testing](#Testing)
+6. [Deployment](#Deployment)
+7. [Credits](#Credits)
 
 
 ## User Experience (UX)
@@ -202,3 +202,6 @@ Additional searching for problemfixes:
 - All fonts used were imported from [Google Fonts](https://fonts.google.com/).
 - All images were downloaded from [Pexels](https://www.pexels.com).
 
+### Shoutout
+
+Special thanks to my Mentor Oluwafemi Medale for helping me out whenever I have a question.
